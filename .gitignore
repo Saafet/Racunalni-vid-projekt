@@ -5,7 +5,9 @@
 !src/
 !outputs/
 !fake_images/
-!screenovi/
+!screenovi/**
+!screenovi/*.png
+!screenovi/*.jpg
 
 # Allow python files
 !src/*.py
