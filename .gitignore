@@ -1,22 +1,25 @@
 # Ignore everything by default
 *
 
-# Allow these folders
+# Allow folders
 !src/
 !outputs/
 !fake_images/
-!screenovi/**
-!screenovi/*.png
-!screenovi/*.jpg
+!screenovi/
 
-# Allow python files
+# Allow files inside allowed folders
 !src/*.py
+!outputs/**
+!fake_images/**
+!screenovi/**
 
-# Allow images (screenshots)
+# Allow images
 !outputs/*.png
 !outputs/*.jpg
 !fake_images/*.png
 !fake_images/*.jpg
+!screenovi/*.png
+!screenovi/*.jpg
 
 # Allow root files
 !README.md
