@@ -1,0 +1,29 @@
+# Ignore everything by default
+*
+
+# Allow these folders
+!src/
+!outputs/
+!fake_images/
+
+# Allow python files
+!src/*.py
+
+# Allow images (screenshots)
+!outputs/*.png
+!outputs/*.jpg
+!fake_images/*.png
+!fake_images/*.jpg
+
+# Allow root files
+!README.md
+!.gitignore
+
+# Still ignore heavy stuff
+*.pth
+data/
+celeba/
+img_align_celeba/
+venv/
+.venv/
+__pycache__/
